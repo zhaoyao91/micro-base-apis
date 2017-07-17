@@ -1,0 +1,28 @@
+{
+  "name": "micro-base-apis",
+  "version": "1.0.0",
+  "description": "define a set of basic apis for a micro service",
+  "main": "index.js",
+  "author": "zhaoyao91 <zhaoyao91@163.com>",
+  "license": "ISC",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhaoyao91/micro-base-apis"
+  },
+  "peerDependencies": {
+    "micro": "^7.x.x"
+  },
+  "devDependencies": {
+    "node-fetch": "^1.x.x",
+    "ava": "^0.21.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "micro": "^7.3.3",
+    "test-listen": "^1.0.2"
+  }
+}
